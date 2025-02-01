@@ -1,0 +1,201 @@
+
+/* Global Style */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f8f9fa;
+}
+
+/* Navbar */
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1.4 rem 7%;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 1000;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.navbar-brand {
+    font-weight: bold;
+    color: #ac1769 !important;
+}
+
+/* Carousel */
+.carousel-caption h5 {
+    font-size: 2rem;
+    font-weight: bold;
+    background-color: rgba(0, 0, 0, 0.5);
+    color: #fff;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+.carousel-control-prev-icon,
+.carousel-control-next-icon {
+    background-color: #ffc1e3;
+    border-radius: 50%;
+    padding: 10px;
+}
+/* Products Section */
+.card {
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    border: none;
+}
+
+.card-title {
+    font-size: 1.2rem;
+    font-weight: bold;
+}
+
+.card-text {
+    color: #6c757d;
+    font-size: 1rem;
+}
+
+.btn-primary {
+    background-color: #ff5c8d;
+    border-color: #ff5c8d;
+}
+
+.btn-primary:hover {
+    background-color: #e94d7c;
+    border-color: #e94d7c;
+}
+
+/* Footer */
+footer {
+    background-color: #ff5c8d;
+    color: white;
+    text-align: center;
+    padding: 10px 0;
+    
+}
+
+/* Styling untuk Section Contact */
+#contact {
+    background: linear-gradient(135deg, #ffe4ec, #ffc1e3); /* Gradien pink lembut */
+    padding: 50px 20px;
+    color: #333;
+}
+
+#contact .contact-container {
+    max-width: 800px;
+    margin: 0 auto;
+    background: #ffffff;
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1);
+}
+
+#contact h2 {
+    text-align: center;
+    font-size: 2rem;
+    color: #ffc1e3;
+    margin-bottom: 20px;
+}
+
+#contact p {
+   
+    font-size: 1rem;
+    color: #666;
+    margin-bottom: 30px;
+}
+#contact .form-label {
+    font-weight: bold;
+    color: #333;
+    margin-bottom: 5px;
+    display: inline-block;
+}
+#contact .form-control {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 20px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    font-size: 1rem;
+}
+
+#contact .form-control:focus {
+    border-color: #ff5c8d;
+    box-shadow: 0 0 5px rgba(255, 92, 141, 0.5);
+}
+
+#contact .btn-submit {
+    background-color: #ff5c8d;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    font-size: 1rem;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+
+#contact .btn-submit:hover {
+    background-color: #ffc1e3;
+    box-shadow: 0 5px 10px rgba(255, 45, 109, 0.2);
+}
+
+#contact .btn-submit:active {
+    transform: scale(0.98);
+}
+
+@media (max-width: 768px) {
+    #contact {
+        padding: 30px 10px;
+    }
+
+    #contact h2 {
+        font-size: 1.8rem;
+    }
+
+    #contact p {
+        font-size: 0.9rem;
+    }
+}
+
+
+#about h2 {
+    color: ffc1e3;
+    font-weight: bold;
+}
+
+#about img {
+    transition: transform 0.3s ease-in-out;
+}
+
+#about img:hover {
+    transform: scale(1.05);
+}
+
+#about ul li {
+    margin-bottom: 10px;
+    color: #555;
+}
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background: linear-gradient(135deg, #faedf1, #e9d0de);
+    background-attachment: fixed;
+    color: #333;
+}
+
+/* Optional decorative overlay */
+.background-overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-image: url('https://www.transparenttextures.com/patterns/squairy-light.png'); /* Free texture pattern */
+    opacity: 0.1; /* Subtle texture */
+    pointer-events: none; /* Prevent interaction */
+    z-index: -1;
+}
+
+
+
